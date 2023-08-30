@@ -1,0 +1,757 @@
+/* importando as fonts... */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+}
+
+.navbar_navigation{
+    display: flex;
+    align-items: center;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+}
+
+.idiom{
+    display: flex;
+    align-items: center;
+    margin-right: 65px;  
+}
+
+.select_idiom{
+    border: none;
+}
+
+.img_main{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.img_main label{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+#video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#realidade_virtual{
+    display: flex;
+    align-items: center;
+}
+
+.txt1{
+    font-size: 63px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+#realidade_virtual label{
+    color: #009387;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: normal;
+}
+
+.txt2{
+    margin-top: 30px;
+    color: #58595D;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+#informacoes{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#txt1{
+    color: #2E2F35;
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#txt2{
+    color: #58595D;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+#explicando_rmvr{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cx1{
+    width: 300px;
+}
+
+#txt_pergunta{
+    font-size: 34px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#txt_resposta{
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    color: #444343;
+    width: 700px;
+}
+
+.roberta{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.txt_roberta{
+    font-size: 63px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+.roberta label{
+    color: #009387;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: normal;
+    font-size: 63px;
+}
+#txt_roberta{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    width: 740px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+
+.explicando_roberta{
+    width: 880px;
+}
+
+.teste{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px ;
+}
+
+#ferramentas{
+    background-color: #28464B;
+    width: 1160px;
+    height: 990px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+#subtitulo{
+    color: rgba(252, 252, 252, 0.747);
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+}
+
+.parte_cima{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.parte_meio{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.parte_embaixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.nome_ferramenta{
+    color: white;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+}
+
+.info_ferramenta{
+    color: rgba(252, 252, 252, 0.747);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 300px;
+    margin-top: 15px;
+}
+
+#documentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+#piupiu{
+    margin-right: 70px;
+    margin-bottom: 160px;
+}
+
+#explicando_documentacao{
+    width: 800px;
+}
+
+#documentacao h1{
+    text-align: left;
+    font-size: 44px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#documentacao p{
+    color: #444343;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+}
+
+#opcoes_documentacao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#opcoes_documentacao a {
+    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+}
+
+#documentacao button{
+    background-color: white;
+    border-radius: 100px;
+    border-color: #2C8C99;
+    font-size: 17px;
+    color: #2C8C99;
+    border: 1px solid;
+    width: 300px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#feedbacks{
+    background-color: #fafafa;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo_feedback{
+    color: #42454A;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#comentarios{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#coment{
+    text-align: center;
+    width: 432px;
+    height: 450px;
+    border: solid 1px;
+    border-color: #D8D8D8;
+    font-family: 'Inter', sans-serif;
+    color: #42454A;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#coment:hover{
+    transition: all 0.5s;
+    transform: scale(1.15);
+    background-color: white;
+    border: none;
+    box-shadow: 3px 10px 10px #8b8b8b;
+}
+
+#coment p{
+    margin: 30px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#info p{
+    margin: 10px;
+}
+
+#equipe{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#integrante{
+    width: 430px;
+}
+
+#nome{
+    display: flex;
+    justify-content: space-between;
+}
+
+#meio_comunicacao{
+    display: flex;
+    justify-content: center;
+}
+
+#meio_comunicacao img{
+    margin: 25px;
+}
+
+#teste{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#contate_nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 680px;
+    
+}
+
+#contate_nos h1{
+    font-size: 56px;
+}
+
+#contate_nos p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+#contate_nos button{
+    background-color: white;
+    border-radius: 100px;
+    border-color: #2C8C99;
+    font-size: 17px;
+    color: #2C8C99;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#footer{
+    display: flex;
+    width: 100%;
+}
+
+#footer img{
+    width: 80%;
+}
+
+#img_roberta{
+    margin-right: 150px;
+}
+
+#informacoes_footer{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    align-items: stretch;
+}
+
+#informacoes_footer div{
+    margin: 50px;
+    line-height: 45px;
+}
+
+#informacoes_footer b{
+    font-size: 22px;
+}
+
+#informacoes_footer a{
+    font-size: 16px;
+}
+
+#logo_footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 380px;
+    width: 1000px;
+}
+
+
+@media (max-width: 660px){
+    .logo img{
+        width: 60%;
+        margin: 0px;
+    }
+    li{
+        display: none;
+    }
+    
+    .idiom{
+        display: none;
+    }
+    .img_main label{
+        font-size: 9px;
+
+    }
+    .logos img{
+        width: 80%;
+    }
+    .logos{
+        align-items: center;
+        margin-top: 20px;
+    }
+    #logo_bosch img{
+        margin-left: 15px;
+    }
+    #video{
+        display: none;
+    }
+    #realidade_virtual img{
+        margin-top: 20px;
+        width: 250px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        margin-top: -230px;
+        margin-left: 139px;
+    }
+    #realidade_virtual{
+        margin-top: 40px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .texto{
+        display: flex;
+    }
+    .txt1{
+        font-size: 20px;
+        text-align: right;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 15px;
+        align-self: right;
+    }
+    #realidade_virtual .txt2{
+        font-size: 13px;
+        text-align: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-right: 27px;
+        margin-top: 20px;
+    }
+    #informacoes{
+        flex-direction: column-reverse;
+        line-height: 30px;
+        margin-left: 15px;
+    }
+    #informacoes #txt1{
+        font-size: 20px;
+    }
+    #explicando_rmvr{
+        flex-direction: column;
+    }
+    #txt_pergunta{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    #txt_pergunta img{
+        background-image: url("../assets/infinito_media.png");
+    }
+    #txt_resposta{
+        font-size: 10px;
+        width: 260px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .cx2 img {
+        width: 230px;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .roberta{
+        margin-top: 65px;
+    }
+    .roberta img{
+        width: 150px;
+    }
+    .txt_roberta{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 210px;
+    }
+    #txt_roberta{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 13px;
+        width: 220px;
+    }
+    .explicando_roberta label{
+        font-size: 20px;
+    }
+    .teste{
+        margin-top: 75px;
+    }
+    #ferramentas{
+        width: 365px;
+        height: 390px;
+        text-align: center;
+    }
+    #ferramentas img{
+        width: 40px;
+    }
+    #figma img{
+        width: 40px;
+    }
+    #titulo{
+        font-size: 23px;
+        margin-top: 15px;
+    } 
+    #subtitulo{
+        font-size: 10px;
+        width: 375px;
+    }
+    .nome_ferramenta{
+        font-size: 13px; 
+    }
+    .info_ferramenta{
+       display: none;
+    }
+    .parte_cima{
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .parte_meio{
+        margin-top: 20px;
+        align-items: center;
+    }
+    .parte_embaixo{
+        margin-top: 20px;
+    }
+    #documentacao{
+        width: 0px;
+        margin-top: 80px;
+        justify-content: flex-start;
+    }
+    #documentacao h1{
+        display: none;
+    }
+    #documentacao p{
+        font-size: 12px;
+        width: 200px;
+    }
+    #opcoes_documentacao{
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+    }
+    #opcoes_documentacao a{
+        font-size: 12px;
+    }
+    #documentacao button{
+        width: 150px;
+        height: 30px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        font-size: 11px;
+    }
+
+    #piupiu img{
+        width: 150px;
+        height: 200px;
+        margin: 15px;
+    }
+    #feedbacks{
+        height: 1700px;
+    }
+    #comentarios{
+        flex-direction: column;
+    }
+    #coment{
+        margin: 10px;
+    }
+
+    #feedbacks{
+        background-color: #fafafa;
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #titulo_feedback{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    #comentarios{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    #coment{
+        text-align: center;
+        width: 300px;
+        height: 400px;
+        font-size: 12px;
+    }
+    #info{
+        line-height: 15px;
+        font-size: 13px;
+        flex-direction: column;
+    }
+    #info p{
+        margin: 5px;
+        width: 230px;
+    }
+    #info img{
+        margin: 5px;
+    }
+    #coment:hover{
+        transition: all 0.5s;
+        transform: scale(1.15);
+        background-color: white;
+        border: none;
+        box-shadow: 3px 10px 10px #8b8b8b;
+    }
+    #equipe{
+        font-size: 15px;
+        font-weight: bold;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+    #foto {
+        width: 250px;
+    }
+    #integrante{
+        width: 250px;
+    }
+    #meio_comunicacao img{
+        width: 30px;
+    }
+    #contate_nos h1{
+        font-size: 30px;
+    }
+    #contate_nos p{
+        font-size: 15px;
+        width: 300px;
+    }
+    #contate_nos button{
+        width: 130px;
+        height: 30px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+    #teste{
+        margin-top: 60px;
+    }
+    #img_roberta{
+        display: none;
+    }
+    #informacoes_footer{
+        width: 160px;
+        margin-left: 20px;
+    }
+    #informacoes_footer div{
+        margin: 10px;
+        line-height: 30px;
+    }
+    #informacoes_footer b{
+        font-size: 15px;
+    }
+    #informacoes_footer a{
+        font-size: 12px;
+    }
+    #img_roberta{
+        margin-right: 0px;
+    }
+    #logo_footer p{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        height: 0px;
+        width: 250px;
+        font-size: 12px;
+    }
+    #logo_footer{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        height: 180px;
+        width: 0%;
+    }
+    #logo_footer img{
+        width: 50px;
+    }
+}    
