@@ -277,6 +277,11 @@ li, a{
     margin-bottom: 200px;
 }
 
+#documentacao a{
+  font-size: 17px;
+  color: #2C8C99;
+}
+
 #feedbacks{
     background-color: #fafafa;
     width: 100%;
