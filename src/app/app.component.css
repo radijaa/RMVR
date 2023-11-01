@@ -627,6 +627,10 @@ li, a{
         margin-bottom: 50px;
         font-size: 11px;
     }
+    #documentacao a{
+      color: #2C8C99;
+      font-size: 11px;
+    }
 
     #piupiu img{
         width: 150px;
